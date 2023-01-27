@@ -1,6 +1,7 @@
 class Admin::CategoriesController < ApplicationController
   def index
     @categories = Category.all
+    @categories_count = @categories.count
   end
 
   def new
