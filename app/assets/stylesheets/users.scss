@@ -1,0 +1,82 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+section.user {
+  // padding: 3rem;
+  // padding-left: 0rem;
+  // padding-right: 0rem;
+
+  padding: 4rem 0.5rem 0rem 0.5rem;
+}
+
+.container-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // background-color: #edf4eb;
+  padding: 4rem;
+
+  background-color: #edf4eb;
+  opacity: 0.8;
+  background-size: 44px 44px;
+  background-position: 0 0, 22px 22px;
+  border-radius: 0.6rem;
+}
+
+.form-control {
+  margin-bottom: 0.5rem;
+  border: none;
+  border-bottom: solid 4px #41613d;
+  background-color: transparent;
+}
+
+h2.user {
+  color: #41613d;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+
+  text-align: center;
+}
+
+h6 {
+  color: #FC8382;
+  font-weight: 900;
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+div.info {
+  padding-left: 5%;
+  margin-right: 1.8%;
+  // padding-top: 5%;
+}
+
+div.login {
+  padding-top: 2rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2.5rem;
+  padding-right: 3.5rem;
+}
+
+// div.signup {
+//   padding-top: 0.5rem;
+// }
+
+input.btn.btn-primary.info {
+  // background-color: #618f5b;
+  background-color: #FC8382;
+  border: #FC8382;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-left: 40%;
+}
+
+input.btn.btn-primary.info:hover {
+  background-color: #618f5b;
+  border: #618f5b;
+  font-weight: 800;
+}

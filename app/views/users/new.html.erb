@@ -1,0 +1,27 @@
+<section class="user">
+<div class="container-user">
+
+  <div class="animation signup">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_AXoQyR.json"  background="transparent"  speed="1"  style="width: 450px; height: 450px;"  loop  autoplay></lottie-player>
+  </div>
+
+  <div class="info">
+  
+    <h2 class="user"> CREATE YOUR ACCOUNT</h2>
+    <h6 > Fill out the form below:</h6>
+
+
+    <%= form_for :user, url: '/users' do |f| %>
+      <%= f.text_field :first_name, placeholder: "First Name", class: 'form-control'  %>
+      <%= f.text_field :last_name, placeholder: "Last Name", class: 'form-control'  %>
+      <%= f.text_field :email, placeholder: "Email", class: 'form-control'  %>
+      <%= f.password_field :password, placeholder: "Password", class: 'form-control'  %>
+      <%= f.password_field :password_confirmation, placeholder: "confirm password", class: 'form-control'  %>
+      
+      <%= f.submit "SIGN UP", class:"btn btn-primary info" %>
+    <% end %>
+  </div>
+
+</div>
+</section>
