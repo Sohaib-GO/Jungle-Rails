@@ -1,0 +1,23 @@
+<section class="user">
+<div class="container-user login">
+
+  <div class="animation">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_o6hQ8m.json"  background="transparent"  speed="1"  style="width: 380px; height: 380px;"  loop  autoplay></lottie-player>
+  </div>
+
+  <div class="info login">
+  
+
+  <h2 class="user">WELCOME BACK</h2>
+    <h6>Log-in to purchase your favorite plants</h6>
+    <%= form_tag '/login' do %>
+      <%= text_field_tag :email, nil, placeholder: 'Enter Your Email', class: 'form-control' %>
+      <%= password_field_tag :password, nil, placeholder: 'Enter Your Password', class: 'form-control' %>
+      
+      <%= submit_tag "LET'S GO", class: 'btn btn-primary info' %>
+    <% end %>
+    </div>
+
+  </div>
+</section>
