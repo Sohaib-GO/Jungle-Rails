@@ -1,4 +1,4 @@
-describe("Home Page", () => {
+describe("Visit Product Details", () => {
   it("should visit the home page", () => {
     cy.visit("http://0.0.0.0:3000");
   });
